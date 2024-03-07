@@ -16,6 +16,10 @@ spec:
               args:
                 - "-v=3"
                 - --privateKeyPath=/etc/secret-volume/privatekey.pem
+                - --appID=284897
+                - --installationID=Iv1.292cae5b5f52cccc
+                - --secretName=my-app-secret
+
               env:
                 - name: NAMESPACE
                   valueFrom:
