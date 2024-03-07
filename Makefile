@@ -1,4 +1,4 @@
-KO_DOCKER_REPO ?= ghcr.io/fluxcd-community
+KO_DOCKER_REPO ?= ghcr.io/kingdon-ci
 TAG ?= latest
 
 all: build
