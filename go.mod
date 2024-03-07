@@ -1,6 +1,6 @@
-module github.com/fluxcd-community/github-app-secret
+module github.com/kingdonb/github-app-secret
 
-go 1.19
+go 1.22
 
 require (
 	github.com/bradleyfalzon/ghinstallation/v2 v2.4.0
