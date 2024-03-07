@@ -6,4 +6,4 @@ resources:
 images:
 - name: ghcr.io/kingdon-ci/github-app-secret
   newName: ghcr.io/fluxcd-community/github-app-secret
-  newTag: latest
+  newTag: rc-233ff9af
