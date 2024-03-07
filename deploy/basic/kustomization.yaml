@@ -1,0 +1,9 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- rbac.yaml
+- cronjob.yaml
+images:
+- name: ghcr.io/kingdon-ci/github-app-secret
+  newName: ghcr.io/kingdon-ci/github-app-secret
+  newTag: v0.0.3
