@@ -17,7 +17,7 @@ spec:
                 - "-v=3"
                 - --privateKeyPath=/etc/secret-volume/privatekey.pem
                 - --appID=284897
-                - --installationID=Iv1.292cae5b5f52cccc
+                - --installationID=33438093
                 - --secretName=my-app-secret
 
               env:
