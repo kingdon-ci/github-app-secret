@@ -5,5 +5,5 @@ resources:
 - cronjob.yaml
 images:
 - name: ghcr.io/kingdon-ci/github-app-secret
-  newName: ghcr.io/kingdon-ci/github-app-secret
-  newTag: v0.0.3
+  newName: ghcr.io/fluxcd-community/github-app-secret
+  newTag: rc-233ff9af
